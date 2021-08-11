@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 5000",
-    "test-html": "mocha --timeout 5000 --reporter mochawesome"
+    "test-html": "mocha --timeout 5000 --reporter mochawesome",
+    "test-junit": "mocha --timeout 5000 --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "@babel/register": "^7.14.5",
     "chai": "^4.3.4",
     "mocha": "^9.0.3",
+    "mocha-junit-reporter": "^2.0.0",
     "mochawesome": "^6.2.2",
     "supertest": "^6.1.4"
   },

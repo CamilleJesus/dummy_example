@@ -7,3 +7,4 @@ Dummy Rest API Example
 
 ## Run Tests
 - `npm test`
+- `npm run test-html` (Generate a Test Report)
